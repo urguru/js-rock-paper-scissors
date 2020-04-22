@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+header{
+    background: white;
+    padding: 20px;
+}
+header>h1{
+    color: #25272e;
+    text-align: center;
+    font-size: 3rem;
+}
+body{
+    background-color: #24272e;
+}
+.scoreboard
+{
+    position: relative;
+    border: 3px solid white;
+    width: 300px;
+    height: 100px;
+    margin: 20px auto;
+    color: white;
+    font-size: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+.badge{
+    background:#e2584d;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+}
+
+#user-label{
+position: absolute;
+top: 30px;
+left: -30px;
+}
+#comp-label{
+position: absolute;
+top: 30px;
+right: -40px;
+}
+.result{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.choices{
+    margin: 50px;
+    text-align: center;
+}
+.choice{
+    display: inline-block;
+    margin: 10 15px;
+    padding: 10px;
+    transition: all 2s;
+    cursor: pointer;
+    border-radius: 90%;
+}
+.choice img{
+    width: 10rem;
+}
+.choice:hover{
+    border: white 2px solid;
+    background: white;
+}
+#action-msg{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+}
+sub{
+    font-size: 1rem;
+}
+#comp-mov{
+    width: 200px;
+    display: block;
+    margin: 30px auto;
+}
+.line{
+    background: white;
+    border-radius: 5px;
+    height: 5px;
+    width: 200px;
+    margin: 2px auto;
+}
+button{
+    background: transparent;
+    padding: 20px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+    border:yellow 2px solid;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+}

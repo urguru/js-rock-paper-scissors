@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="scoreboard">
+        <div class="badge" id="user-label">User</div>
+        <div class="badge" id="comp-label">Comp</div>
+        <div class="live"><span id="user-score">0</span>:<span id="comp-score">0</span></div>
+    </div>
+    <div class="result">
+        <p>paper covers rock.You win</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./images/rock.png" alt="rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/paper.png" alt="rock">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="./images/scissors.png" alt="rock">
+        </div>
+    </div>
+    <p id="action-msg">Make your move</p>
+    <p id="action-msg" style="margin-top: 30px">Computer Move</p>
+    <div class="line"></div>
+    <img style="margin-top: 0px" id="comp-mov" src="" alt="">
+    <button type="button" onclick="reset()">Reset</button>
+    <script src="./app.js"></script>
+</body>
+</html>
